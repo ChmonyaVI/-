@@ -5,17 +5,18 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../css/Css.css">
       <title>Поле для ввода пароля с переключением видимости</title>
    </head>
-   <div class="input-wrapper">
-      <input type="password" id="password" placeholder="Type your password" />
-      <div class="input-icon" id="icon" oneclick="togglePassword()">
-         <img src="C:\Users\Skif\Desktop\444\Кнопка и пасс\img\загружено.png">
-      </div>
-   </div>
 
    <body>
-
+      <div class="input-wrapper">
+         <input type="password" id="password" placeholder="Type your password" />
+         <div class="input-icon" id="icon" onclick="togglePassword()">
+            <img src="../img/загружено.png">
+         </div>
+      </div>
+      <script src="../js/start.js"></script>
    </body>
 
 </html>
